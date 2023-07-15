@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>signup</title>
+</head>
+<body>
+    <form action="signup" method= "POST">
+        {% csrf_token %}
+        <title>Sign Up</title>
+            <h2>Sign Up</h2>
+            <h4>It takes a minute</h4>
+                <label>firstname</label>
+                <input type="text" name="firstname">
+    
+                <label>lastname</label>
+                <input type="text" name="lastname">
+    
+                <label>Email</label>
+                <input type="email" name="email">
+                <br>
+                <label>username</label>
+                <input type="username" name="username">
+    
+                <label>Password</label>
+                <input type="password" name="password">
+    
+                
+                <input type="submit" name="submit">
+    
+    
+            </form>
+           
+        
+       
+    
+   
+</body>
+</html>
